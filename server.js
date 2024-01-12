@@ -28,9 +28,9 @@ app.get('/home', function(req, res){
     } else {
         let val = Buffer.from(role, 'base64').toString('ascii').trim();
         if(val == 'user'){
-            res.render('home.ejs');
+            res.render('home.html');
         } else if(val == 'admin'){
-            res.render('admin.ejs');
+            res.render('admin.html');
         } else {
             res.redirect('/');
         }
