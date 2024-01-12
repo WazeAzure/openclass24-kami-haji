@@ -1,0 +1,1 @@
+# openclass24-kami-haji
