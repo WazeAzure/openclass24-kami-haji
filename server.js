@@ -1,5 +1,6 @@
 /* SERVER */
 var express = require('express');
+const cors = require("cors");
 const cookieParser = require('cookie-parser');
 var {firebaseApp, firebaseDB} = require('./fire');
 var app = express();
@@ -48,7 +49,6 @@ app.get('/api/flag', function(req, res){
     }
 
     // clean
-    console.log(req.query.id);
     const dbUrl = "https://openclass24-firebase-a0ff7-default-rtdb.asia-southeast1.firebasedatabase.app";
     const dbRef = ref(firebaseDB, 'flag/' + req.query.id);
     onValue(dbRef, (snapshot) => {
