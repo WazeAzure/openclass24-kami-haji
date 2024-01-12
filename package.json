@@ -1,0 +1,27 @@
+{
+  "name": "openclass24-kami-haji",
+  "version": "1.0.0",
+  "description": "soal ctf",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WazeAzure/openclass24-kami-haji.git"
+  },
+  "author": "WazeAzure",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WazeAzure/openclass24-kami-haji/issues"
+  },
+  "homepage": "https://github.com/WazeAzure/openclass24-kami-haji#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "firebase": "^10.7.1",
+    "firebase-admin": "^12.0.0"
+  }
+}
